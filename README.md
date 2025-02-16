@@ -1,2 +1,3 @@
-# STM32_TEST
-使用HAL库对STM32进行一些硬件测试（如测试舵机等一些模块）
+# SG90_STM32F407VGT6_TEST
+使用HAL库让STM32控制SG90舵机
+请注意，在cubemx里设置Clock Configuration时，注意查看单片机的高速晶振（如参数是8MHz还是25MHz）与低速晶振，选择Input frequency需与自己的单片机对应
